@@ -61,7 +61,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "lingodome-site:build"
+            "browserTarget": "lingodome-site:build",
+            "port": 4213
           },
           "configurations": {
             "production": {
